@@ -1,0 +1,61 @@
+html {
+    background-color: rgb(212, 225, 231);
+}
+
+body {
+    width: 800px;
+    margin: 50px auto;
+    background-color: rgb(141, 199, 134);
+    padding: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+header {
+    background-color: rgb(83, 163, 62);
+}
+
+h1 {
+    margin: 0;
+    padding: 0px 0;
+    color: rgb(178, 216, 152);
+    text-shadow: 3px 3px 1px black;
+}
+
+nav {
+    background-color: #FFFFFF;
+    background-color: hsl(180, 80%, 25%);
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: red;
+}
+
+h1 {
+    text-indent: 30px;
+    padding-top: 10px;
+}
+
+main {
+    text-indent: 30px;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    background-color: hsl(180, 90%, 35%);
+}
