@@ -22,18 +22,28 @@
     </header>
 
 
-    <form action="/my-handling-form-page" method="post">
+    <form action="#" method="post">
         <div>
-            <label>Name:</label>
-            <input type="text" name="user_name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
         </div>
         <div>
-            <label>E-mail:</label>
-            <input type="email" name="user_mail">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="user_mail">
         </div>
         <div>
-            <label>Message:</label>
-            <textarea name="user_message">Write message</textarea>
+            <fieldset>
+                <legend>Gender</legend>
+                <select type="text" id="gender" name="user_gender" placeholder="choiseyourgender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="x">x</option>
+                </select>
+            </fieldset>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea name="user_message" id="message">Write message</textarea>
         </div>
         <div>
             <button type="submit">Send your message</button>
@@ -42,16 +52,16 @@
 
 
     <address>
-        You can always contact me !<br>
-        Nathalie Pillen<br>
-        Examplestreet 41<br>
-        9000 Gent<br>
-        Telefoon: 0472645321<br>
-        E-mail: <a href="mailto:pillennathalie@gmail.com" target="_blank">pillennathalie@gmail.com</a>
+        <p>You can always contact me !</p>
+            Nathalie Pillen <br>
+            Examplestreet 41 <br>
+            9000 Gent<br><br>
+            <a href="mailto:pillennathalie@gmail.com">pillennathalie@gmail.com</a><br>
+            <a href="tel:+472645321">+32 472 64 53 21</a>
     </address>
 
     <footer>
-        <p>Ready to start learning?</p>
+        <p><b>Ready to start learning?</b></p>
     </footer>
 
 </body>
